@@ -1,0 +1,6 @@
+framework module flutter_lockscreen_check {
+  umbrella header "flutter_lockscreen_check-umbrella.h"
+
+  export *
+  module * { export * }
+}
