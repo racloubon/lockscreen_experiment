@@ -23,7 +23,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_lockscreen_check: ^0.0.2
+  is_passcode_enabled:
+    path: /Users/yc00145/AndroidStudioProjects/is_passcode_enabled
 
 dev_dependencies:
   flutter_test:
