@@ -1,21 +1,21 @@
 PODS:
   - Flutter (1.0.0)
-  - flutter_lockscreen_check (0.0.1):
+  - is_passcode_enabled (0.0.1):
     - Flutter
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
-  - flutter_lockscreen_check (from `.symlinks/plugins/flutter_lockscreen_check/ios`)
+  - is_passcode_enabled (from `.symlinks/plugins/is_passcode_enabled/ios`)
 
 EXTERNAL SOURCES:
   Flutter:
     :path: Flutter
-  flutter_lockscreen_check:
-    :path: ".symlinks/plugins/flutter_lockscreen_check/ios"
+  is_passcode_enabled:
+    :path: ".symlinks/plugins/is_passcode_enabled/ios"
 
 SPEC CHECKSUMS:
   Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
-  flutter_lockscreen_check: deed91133c471d8d235a4c486737375e93ca7edf
+  is_passcode_enabled: 5aebd67a204b57df7a37dd3b57b5d76dd5c15c61
 
 PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
 

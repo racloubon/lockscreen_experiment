@@ -3,7 +3,8 @@ import 'dart:async';
 
 import 'package:flutter/services.dart';
 import 'dart:io' show Platform;
-import 'package:flutter_lockscreen_check/flutter_lockscreen_check.dart';
+
+import 'package:is_passcode_enabled/is_passcode_enabled.dart';
 
 void main() {
   runApp(MyApp());
@@ -28,7 +29,7 @@ class _MyAppState extends State<MyApp> {
     bool lockScreenAvailable;
     if (Platform.isIOS) {
       try {
-        lockScreenAvailable = await FlutterLockScreenCheck.isLockScreenAvailable;
+        lockScreenAvailable = await IsPasscodeEnabled.isPasscodeEnabled;
       } on PlatformException {
         lockScreenAvailable = false;
       }

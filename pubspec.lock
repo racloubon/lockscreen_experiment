@@ -63,9 +63,11 @@ packages:
   is_passcode_enabled:
     dependency: "direct main"
     description:
-      path: "/Users/yc00145/AndroidStudioProjects/is_passcode_enabled"
-      relative: false
-    source: path
+      path: "."
+      ref: master
+      resolved-ref: "8417856af0264dc7c1932be54f1436146407c8c1"
+      url: "https://github.com/racloubon/is_passcode_enabled"
+    source: git
     version: "0.0.1"
   matcher:
     dependency: transitive

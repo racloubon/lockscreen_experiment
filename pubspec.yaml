@@ -24,7 +24,9 @@ dependencies:
   flutter:
     sdk: flutter
   is_passcode_enabled:
-    path: /Users/yc00145/AndroidStudioProjects/is_passcode_enabled
+    git: 
+      url: https://github.com/racloubon/is_passcode_enabled
+      ref: master
 
 dev_dependencies:
   flutter_test:
